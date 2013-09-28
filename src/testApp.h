@@ -6,6 +6,10 @@
 #include "ofxReprojection.h"
 #include "ofxKinect.h"
 #include "xum/xuKinectIn.h"
+#include "xum/xuMensaje.h"
+
+#include "ofxSimpleGuiToo.h"
+
 
 class testApp : public ofBaseApp{
 
@@ -27,8 +31,9 @@ class testApp : public ofBaseApp{
 
 		void renderTransito();
 		void updateScenes();
+	
 		
-		ofFbo							fboMezcla, fboUno, fboDos;
+		ofFbo							fboMezcla, fboUno, fboMensajes;
 		xuKinectIn						profCam;
 		//ofxKinect depthcam;
 		ofxReprojectionCalibration		calibration;
@@ -45,8 +50,18 @@ class testApp : public ofBaseApp{
 		bool							verFija;
 		ofLight							luzPuntual, luzDos;
 		ofShader    maskShader;
-
+		ofImage							mascaraTest;
+		ofTexture						textTest;
 		int								altoCamara, anchoCamara;
 
-		
+		float							escalaMensajes;
+		ofPoint							ofsetMensajes;
+
+		ofTrueTypeFont	etiqueta;
+		//vector<std::string> mensajes;
+		int mensajesPintados;
+		vector<xuMensaje *>	mensajes;
+
+
+
 };

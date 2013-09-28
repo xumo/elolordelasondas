@@ -1,0 +1,268 @@
+﻿Build started 28/09/2013 03:17:03 p.m..
+     1>Project "C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\apps\myApps\beSniffer\beSniffer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\types /I..\..\..\libs\openFrameworks\math /I..\..\..\libs\openFrameworks\3d /I..\..\..\libs\openFrameworks\gl /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glew\include\ /I..\..\..\libs\glu\include /I..\..\..\libs\tess2\include /I..\..\..\libs\cairo\include\cairo /I..\..\..\libs\poco\include /I..\..\..\libs\glfw\include /I..\..\..\..\libs\openssl\include /I..\..\..\addons /I..\..\..\addons\ofxXmlSettings\libs /I..\..\..\addons\ofxXmlSettings\src /I..\..\..\addons\ofxMSAInteractiveObject\libs /I..\..\..\addons\ofxMSAInteractiveObject\src /I..\..\..\addons\ofxSimpleGuiToo\libs /I..\..\..\addons\ofxSimpleGuiToo\src /I..\..\..\addons\ofxSimpleGuiToo\src\Controls /Ipcap\Include /I..\..\..\addons\ofxAssimpModelLoader\libs /I..\..\..\addons\ofxAssimpModelLoader\libs\assimp /I..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include /I..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\Compiler /I..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib /I..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\vs /I..\..\..\addons\ofxAssimpModelLoader\src /I..\..\..\addons\ofxGui\libs /I..\..\..\addons\ofxGui\src /I..\..\..\addons\ofxKinect\libs /I..\..\..\addons\ofxKinect\src /I..\..\..\addons\ofxKinect\libs\libfreenect /I..\..\..\addons\ofxKinect\libs\libfreenect\include /I..\..\..\addons\ofxKinect\libs\libfreenect\platform /I..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows /I..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows\inf /I"..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows\inf\xbox nui audio" /I"..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows\inf\xbox nui audio\amd64" /I"..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows\inf\xbox nui audio\ia64" /I"..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows\inf\xbox nui audio\license" /I"..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows\inf\xbox nui audio\license\libusb-win32" /I"..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows\inf\xbox nui audio\x86" /I"..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows\inf\xbox nui camera" /I"..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows\inf\xbox nui camera\amd64" /I"..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows\inf\xbox nui camera\ia64" /I"..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows\inf\xbox nui camera\license" /I"..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows\inf\xbox nui camera\license\libusb-win32" /I"..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows\inf\xbox nui camera\x86" /I"..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows\inf\xbox nui motor" /I"..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows\inf\xbox nui motor\amd64" /I"..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows\inf\xbox nui motor\ia64" /I"..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows\inf\xbox nui motor\license" /I"..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows\inf\xbox nui motor\license\libusb-win32" /I"..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows\inf\xbox nui motor\x86" /I..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows\libusb10emu /I"..\..\..\addons\ofxKinect\libs\libfreenect\platform\windows\libusb10emu\libusb-1.0" /I..\..\..\addons\ofxKinect\libs\libfreenect\src /I"..\..\..\addons\ofxKinect\libs\libusb-1.0" /I"..\..\..\addons\ofxKinect\libs\libusb-1.0\include" /I"..\..\..\addons\ofxKinect\libs\libusb-1.0\include\libusb-1.0" /I"..\..\..\addons\ofxKinect\libs\libusb-1.0\lib" /I"..\..\..\addons\ofxKinect\libs\libusb-win32" /I"..\..\..\addons\ofxKinect\libs\libusb-win32\include" /I"..\..\..\addons\ofxKinect\libs\libusb-win32\lib" /I"..\..\..\addons\ofxKinect\libs\libusb-win32\lib\vs" /I..\..\..\addons\ofxOpenCv\libs /I..\..\..\addons\ofxOpenCv\src /I..\..\..\addons\ofxOpenCv\libs\opencv /I..\..\..\addons\ofxOpenCv\libs\opencv\include /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2 /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\calib3d /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\contrib /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\core /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\features2d /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\flann /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\gpu /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\highgui /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\legacy /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\ml /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\objdetect /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\ts /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\video /I..\..\..\addons\ofxOpenCv\libs\opencv\lib /I..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs /I..\..\..\addons\ofxXmlSettings\libs /I..\..\..\addons\ofxXmlSettings\src /I..\..\..\addons\ofxReprojection\libs /I..\..\..\addons\ofxReprojection\src /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D POCO_STATIC /D CAIRO_WIN32_STATIC_BUILD /D DISABLE_SOME_FLOATING_POINT /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Release\\" /Fd"obj\Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp src\testApp.cpp src\xum\xuSniffer.cpp src\xum\xuTransitoVertical.cpp
+         main.cpp
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\addons\ofxassimpmodelloader\src\ofxAssimpAnimation.h(10): warning C4099: 'aiScene' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\libs\assimp\include\assimp.h(53) : see declaration of 'aiScene'
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(22): warning C4099: 'aiScene' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\libs\assimp\include\assimp.h(53) : see declaration of 'aiScene'
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(135): warning C4099: 'aiVector3D' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+                 c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(136): warning C4099: 'aiNode' : type name first seen using 'class' now seen using 'struct'
+                 C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(23) : see declaration of 'aiNode'
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(136): warning C4099: 'aiVector3D' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+                 c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+         testApp.cpp
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\addons\ofxassimpmodelloader\src\ofxAssimpAnimation.h(10): warning C4099: 'aiScene' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\libs\assimp\include\assimp.h(53) : see declaration of 'aiScene'
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(22): warning C4099: 'aiScene' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\libs\assimp\include\assimp.h(53) : see declaration of 'aiScene'
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(135): warning C4099: 'aiVector3D' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+                 c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(136): warning C4099: 'aiNode' : type name first seen using 'class' now seen using 'struct'
+                 C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(23) : see declaration of 'aiNode'
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(136): warning C4099: 'aiVector3D' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+                 c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+         xuSniffer.cpp
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\addons\ofxassimpmodelloader\src\ofxAssimpAnimation.h(10): warning C4099: 'aiScene' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\libs\assimp\include\assimp.h(53) : see declaration of 'aiScene'
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(22): warning C4099: 'aiScene' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\libs\assimp\include\assimp.h(53) : see declaration of 'aiScene'
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(135): warning C4099: 'aiVector3D' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+                 c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(136): warning C4099: 'aiNode' : type name first seen using 'class' now seen using 'struct'
+                 C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(23) : see declaration of 'aiNode'
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(136): warning C4099: 'aiVector3D' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+                 c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+         xuTransitoVertical.cpp
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\addons\ofxassimpmodelloader\src\ofxAssimpAnimation.h(10): warning C4099: 'aiScene' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\libs\assimp\include\assimp.h(53) : see declaration of 'aiScene'
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(22): warning C4099: 'aiScene' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\libs\assimp\include\assimp.h(53) : see declaration of 'aiScene'
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(135): warning C4099: 'aiVector3D' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+                 c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(136): warning C4099: 'aiNode' : type name first seen using 'class' now seen using 'struct'
+                 C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(23) : see declaration of 'aiNode'
+     1>C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(136): warning C4099: 'aiVector3D' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+                 c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+     1>c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\libs\openframeworks\types\ofColor.h(182): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+                 c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\libs\openframeworks\types\ofColor.h(162) : see reference to function template instantiation 'void ofColor_<PixelType>::copyFrom<float>(const ofColor_<float> &)' being compiled
+                 with
+                 [
+                     PixelType=unsigned char
+                 ]
+                 c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\libs\openframeworks\types\ofColor.h(162) : see reference to function template instantiation 'void ofColor_<PixelType>::copyFrom<float>(const ofColor_<float> &)' being compiled
+                 with
+                 [
+                     PixelType=unsigned char
+                 ]
+                 src\xum\xuTransitoVertical.cpp(98) : see reference to function template instantiation 'ofColor_<PixelType>::ofColor_<float>(const ofColor_<float> &)' being compiled
+                 with
+                 [
+                     PixelType=unsigned char
+                 ]
+                 src\xum\xuTransitoVertical.cpp(98) : see reference to function template instantiation 'ofColor_<PixelType>::ofColor_<float>(const ofColor_<float> &)' being compiled
+                 with
+                 [
+                     PixelType=unsigned char
+                 ]
+     1>c:\users\wal mart\documents\rodrigo\proyectos\of_v0.8.0_vs_release\libs\openframeworks\types\ofColor.h(187): warning C4244: '=' : conversion from 'const float' to 'unsigned char', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\beSniffer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\libs\glut\lib\vs /LIBPATH:..\..\..\libs\glfw\lib\vs /LIBPATH:..\..\..\libs\rtAudio\lib\vs /LIBPATH:..\..\..\libs\FreeImage\lib\vs /LIBPATH:..\..\..\libs\freetype\lib\vs /LIBPATH:..\..\..\libs\quicktime\lib\vs /LIBPATH:..\..\..\libs\fmodex\lib\vs /LIBPATH:..\..\..\libs\videoInput\lib\vs /LIBPATH:..\..\..\libs\cairo\lib\vs /LIBPATH:..\..\..\libs\glew\lib\vs /LIBPATH:..\..\..\libs\glu\lib\vs /LIBPATH:..\..\..\libs\openssl\lib\vs /LIBPATH:..\..\..\libs\Poco\lib\vs /LIBPATH:..\..\..\libs\tess2\lib\vs /LIBPATH:"..\..\..\addons\ofxKinect\libs\libusb-win32\lib\vs" /LIBPATH:..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs /LIBPATH:..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\vs /LIBPATH:pcap\Lib "cairo-static.lib" "pixman-1.lib" msimg32.lib OpenGL32.lib GLu32.lib kernel32.lib setupapi.lib Vfw32.lib comctl32.lib glut32.lib rtAudio.lib videoInput.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib glew32s.lib fmodex_vc.lib glu32.lib crypt32.lib libeay32MD.lib ssleay32MD.lib PocoFoundationmd.lib PocoNetmd.lib PocoUtilmd.lib PocoXMLmd.lib Ws2_32.lib tess2.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib wpcap.lib Packet.lib ws2_32.lib assimp.lib libusb.lib opencv_calib3d231.lib opencv_contrib231.lib opencv_core231.lib opencv_features2d231.lib opencv_flann231.lib opencv_gpu231.lib opencv_haartraining_engine.lib opencv_highgui231.lib opencv_imgproc231.lib opencv_legacy231.lib opencv_ml231.lib opencv_objdetect231.lib opencv_video231.lib zlib.lib /NODEFAULTLIB:PocoFoundationd.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:LIBC.lib /NODEFAULTLIB:LIBCMT /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"bin\beSniffer.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"bin\beSniffer.lib" /MACHINE:X86 /SAFESEH obj\Release\icon.res
+         obj\Release\ofxAssimpAnimation.obj
+         obj\Release\ofxAssimpMeshHelper.obj
+         obj\Release\ofxAssimpModelLoader.obj
+         obj\Release\ofxAssimpTexture.obj
+         obj\Release\main.obj
+         obj\Release\testApp.obj
+         obj\Release\ofxMSAInteractiveObject.obj
+         obj\Release\main.obj
+         obj\Release\testApp.obj
+         obj\Release\ofxSimpleGuiButton.obj
+         obj\Release\ofxSimpleGuiColorPicker.obj
+         obj\Release\ofxSimpleGuiComboBox.obj
+         obj\Release\ofxSimpleGuiContent.obj
+         obj\Release\ofxSimpleGuiFPSCounter.obj
+         obj\Release\ofxSimpleGuiMovieSlider.obj
+         obj\Release\ofxSimpleGuiQuadWarp.obj
+         obj\Release\ofxSimpleGuiSlider2d.obj
+         obj\Release\ofxSimpleGuiTitle.obj
+         obj\Release\ofxSimpleGuiToggle.obj
+         obj\Release\ofxSimpleGuiConfig.obj
+         obj\Release\ofxSimpleGuiControl.obj
+         obj\Release\ofxSimpleGuiPage.obj
+         obj\Release\ofxSimpleGuiToo.obj
+         obj\Release\ofxSimpleGuiValueControl.obj
+         obj\Release\main.obj
+         obj\Release\testApp.obj
+         obj\Release\ofxBaseGui.obj
+         obj\Release\ofxButton.obj
+         obj\Release\ofxGuiGroup.obj
+         obj\Release\ofxLabel.obj
+         obj\Release\ofxPanel.obj
+         obj\Release\ofxSlider.obj
+         obj\Release\ofxSliderGroup.obj
+         obj\Release\ofxToggle.obj
+         obj\Release\ofxKinect.obj
+         obj\Release\failguard.obj
+         obj\Release\libusbemu.obj
+         obj\Release\cameras.obj
+         obj\Release\core.obj
+         obj\Release\registration.obj
+         obj\Release\tilt.obj
+         obj\Release\usb_libusb10.obj
+         obj\Release\ofxCvColorImage.obj
+         obj\Release\ofxCvContourFinder.obj
+         obj\Release\ofxCvFloatImage.obj
+         obj\Release\ofxCvGrayscaleImage.obj
+         obj\Release\ofxCvHaarFinder.obj
+         obj\Release\ofxCvImage.obj
+         obj\Release\ofxCvShortImage.obj
+         obj\Release\ofxXmlSettings.obj
+         obj\Release\tinyxml.obj
+         obj\Release\tinyxmlerror.obj
+         obj\Release\tinyxmlparser.obj
+         obj\Release\lmmin.obj
+         obj\Release\ofxEasyCamArea.obj
+         obj\Release\ofxHighlightRects.obj
+         obj\Release\ofxReprojectionCalibration.obj
+         obj\Release\ofxReprojectionCalibrationData.obj
+         obj\Release\ofxReprojectionRenderer2D.obj
+         obj\Release\ofxReprojectionUtils.obj
+         obj\Release\xuKinectIn.obj
+         obj\Release\xuMensaje.obj
+         obj\Release\xuNodo.obj
+         obj\Release\xuSniffer.obj
+         obj\Release\xuTransitoVertical.obj
+         "C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\libs\openFrameworksCompiled\lib\vs\openframeworksLib.lib"
+     1>obj\Release\main.obj : warning LNK4042: object specified more than once; extras ignored
+     1>obj\Release\testApp.obj : warning LNK4042: object specified more than once; extras ignored
+     1>obj\Release\main.obj : warning LNK4042: object specified more than once; extras ignored
+     1>obj\Release\testApp.obj : warning LNK4042: object specified more than once; extras ignored
+            Creating library bin\beSniffer.lib and object bin\beSniffer.exp
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         beSniffer.vcxproj -> C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\apps\myApps\beSniffer\bin\beSniffer.exe
+       PostBuildEvent:
+         xcopy /e /i /y "C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\apps\myApps\beSniffer\..\..\..\export\vs\*.dll" "C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\apps\myApps\beSniffer\bin"
+         :VCEnd
+         C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\apps\myApps\beSniffer\..\..\..\export\vs\Assimp32.dll
+         C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\apps\myApps\beSniffer\..\..\..\export\vs\fmodex.dll
+         C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\apps\myApps\beSniffer\..\..\..\export\vs\fmodexL.dll
+         C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\apps\myApps\beSniffer\..\..\..\export\vs\FreeImage.dll
+         C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\apps\myApps\beSniffer\..\..\..\export\vs\FreeType-6.dll
+         C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\apps\myApps\beSniffer\..\..\..\export\vs\glut32.dll
+         C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\apps\myApps\beSniffer\..\..\..\export\vs\libeay32.dll
+         C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\apps\myApps\beSniffer\..\..\..\export\vs\ssleay32.dll
+         C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\apps\myApps\beSniffer\..\..\..\export\vs\Zlib.dll
+         9 archivo(s) copiado(s)
+     1>Done Building Project "C:\Users\Wal Mart\Documents\Rodrigo\Proyectos\of_v0.8.0_vs_release\apps\myApps\beSniffer\beSniffer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:41.24

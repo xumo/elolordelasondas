@@ -133,6 +133,69 @@
     <ClCompile Include="src\xum\xuKinectIn.cpp">
       <Filter>src\xum</Filter>
     </ClCompile>
+    <ClCompile Include="src\xum\xuMensaje.cpp">
+      <Filter>src\xum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMSAInteractiveObject\example\src\main.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMSAInteractiveObject\example\src\testApp.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMSAInteractiveObject\src\ofxMSAInteractiveObject.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\example\src\main.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\example\src\testApp.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiButton.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiColorPicker.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiComboBox.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiContent.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiFPSCounter.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiMovieSlider.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiQuadWarp.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiSlider2d.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiTitle.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiToggle.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiConfig.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiControl.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiPage.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiToo.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiValueControl.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\all_indices.h">
@@ -581,6 +644,78 @@
     </ClInclude>
     <ClInclude Include="src\xum\xuKinectIn.h">
       <Filter>src\xum</Filter>
+    </ClInclude>
+    <ClInclude Include="src\xum\xuMensaje.h">
+      <Filter>src\xum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMSAInteractiveObject\example\src\MyTestObject.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMSAInteractiveObject\example\src\testApp.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMSAInteractiveObject\src\ofxMSAInteractiveObject.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\example\src\testApp.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiButton.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiColorPicker.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiComboBox.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiContent.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiFPSCounter.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiMovieSlider.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiQuadWarp.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiSlider2d.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiSliderBase.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiSliderFloat.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiSliderInt.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiTitle.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiToggle.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiConfig.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiControl.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiIncludes.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiPage.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiToo.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiValueControl.h">
+      <Filter>addons</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

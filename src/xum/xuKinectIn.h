@@ -2,7 +2,8 @@
 #include "ofxKinect.h"
 #include "ofxOpenCv.h"
 #include "ofMain.h"
-
+#include <vector>
+#include <math.h>  
 
 class xuKinectIn
 {
@@ -20,21 +21,29 @@ public:
 
 
 	void setRenderBlob( bool si);
+
+	std::string getMensaje();
+	ofPoint		getRandomCentroid();
+	int			getNumBlobs();
+
 	ofFbo * getSiluetas();
 	ofFbo * getMallado();
 
 	//cotas para distancias de detección
-	float minDist, maxDist, cotaInfDist,cotaSupDist; 
+	float  cotaInfDist,cotaSupDist; 
+	int minDist, maxDist;
 	int threshold;
 
 	ofxKinect kinect;
 	ofxBase3DVideo* kinectSource;
 
+	ofTexture videoTextura;
+	ofTexture depthTextura;
+
 private:
 	
 
-	ofTexture videoTextura;
-	ofTexture depthTextura;
+	
 
 	ofxCvGrayscaleImage depthImage;
 	ofxCvGrayscaleImage threshImage;
@@ -46,5 +55,9 @@ private:
 	bool	renderBlobs;
 
 	void renderBlob(ofxCvBlob *blob, float x = 0, float y = 0);
+
+	ofTrueTypeFont	etiqueta;
+	vector<std::string> mensajes;
+
 };
 

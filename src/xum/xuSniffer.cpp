@@ -111,13 +111,17 @@ void xuSniffer::got_packet(u_char *args, const struct pcap_pkthdr *header, const
         
 		//cout<<"IP HOST"<<dir_ip<<endl;
 		//cout<<"IP SRC"<<inet_ntoa(ip->ip_src)<<endl;
+		stringstream ss;
+		string s;
+		ss << inet_ntoa(ip->ip_src);
+		ss >> s;
         if(strncmp(inet_ntoa(ip->ip_src),dir_ip,13)!=0)
         {
 			//El paquete viende otra IP, baja
-			transito->addNodo(tipo, size_payload, true);
+			transito->addNodo(tipo, size_payload, true,s);
         }else{
             //Viene de la misma IP, sube
-			transito->addNodo(tipo, size_payload, false);
+			transito->addNodo(tipo, size_payload, false,s);
         }
         
     }

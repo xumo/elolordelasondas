@@ -185,12 +185,21 @@ void xuKinectIn::renderBlob(ofxCvBlob *blob, float x, float y )
 
 	//fbo.begin();
 		//ofNoFill();
-		ofSetHexColor(0x33FFFF);
+		ofSetHexColor(0xffFFFF);
 		ofBeginShape();
 		for (int i = 0; i < blob->nPts; i++){
 				ofVertex( blob->pts[i].x, blob->pts[i].y);
 		}
 		ofEndShape(true);
+		//Pintar un String
+		// en centro del blob
+		//blob->area.width;
+		//blob->boundingRect.x;
+
+		//ofSetHexColor(0xFFFFFF);
+		//etiqueta.drawString(getMensaje(),blob->boundingRect.x, blob->centroid.y);
+
+
 	//fbo.end();
 
 	//fbo.draw(x, y);
@@ -218,6 +227,31 @@ int xuKinectIn::getWidth()
 int xuKinectIn::getHeight()
 {
 	return kinect.height;
+}
+
+std::string xuKinectIn::getMensaje(){
+	int n = (int)floor(ofRandom(mensajes.size()));
+	return mensajes[n];
+}
+
+ofPoint	xuKinectIn::getRandomCentroid()
+{
+
+	if(contourFinderDepth.nBlobs>0)
+	{
+		ofxCvBlob blob = contourFinderDepth.blobs[(int)ofRandom(contourFinderDepth.nBlobs-1)];
+		return ofPoint(blob.centroid.x, blob.centroid.y);
+	}else
+	{
+		return ofPoint(-1);
+	}
+
+	
+}
+
+int xuKinectIn::getNumBlobs()
+{
+	return contourFinderDepth.nBlobs;
 }
 
 //---------------------------------------

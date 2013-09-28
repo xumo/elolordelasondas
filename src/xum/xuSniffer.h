@@ -10,6 +10,8 @@
 #include <ctype.h>
 #include <errno.h>
 #include <sys/types.h>
+#include <sstream>
+#include <string>
 //#include <sys/socket.h>
 //#include <netinet/in.h>
 //#include <arpa/inet.h>
@@ -101,7 +103,7 @@ public:
     
     void close();
         //void test();
-        xuTransitoVertical * transito;
+    xuTransitoVertical * transito;
     vector <arista> aristas;
 
 	char	*dir_ip;

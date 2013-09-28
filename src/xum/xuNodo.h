@@ -19,6 +19,8 @@ public:
 	void	setBounds(float x1, float x2, float y1, float y2, float z1, float z2);
 
 	ofPoint pos;
+
+	string direccion;
 private:
 	float	x;
 	float	y;

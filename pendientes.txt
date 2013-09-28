@@ -1,10 +1,11 @@
 El olor de la ondas
 Pendientes
 
-- Iluminación
-- Integración mapping con enmascarillado.
+* - Iluminación
+* - Integración mapping con enmascarillado.
 - Sacar los mensajes de texto con pcap y ponerlos como frases en el centro del blob.
 	campos de WireShark
 	* time to leave 
-- Identificación de IP por colores.
-- Mensaje simulados. 3 y 10 segundos.
+* - Identificación de IP por colores.
+* - Mensaje simulados. 3 y 10 segundos.
+- Pantalla de inicio.

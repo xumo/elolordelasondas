@@ -1,0 +1,78 @@
+<controls>
+    <SliderFloat_Escala>
+        <name>Escala</name>
+        <value>0.780479908</value>
+        <name>Escala</name>
+        <value>0.780479908</value>
+    </SliderFloat_Escala>
+    <SliderFloat_Offset_x>
+        <name>Offset x</name>
+        <value>168.000000000</value>
+    </SliderFloat_Offset_x>
+    <SliderFloat_Offset_y>
+        <name>Offset y</name>
+        <value>0.000000000</value>
+    </SliderFloat_Offset_y>
+    <SliderInt_Distancia_minima_mm>
+        <name>Distancia minima mm</name>
+        <value>993</value>
+    </SliderInt_Distancia_minima_mm>
+    <SliderInt_Distancia_maxima_mm>
+        <name>Distancia maxima mm</name>
+        <value>3681</value>
+    </SliderInt_Distancia_maxima_mm>
+    <Toggle_Cambiar_vista>
+        <name>Cambiar vista</name>
+        <value>0</value>
+    </Toggle_Cambiar_vista>
+    <SliderFloat_Velocidad>
+        <name>Velocidad</name>
+        <value>0.094550006</value>
+    </SliderFloat_Velocidad>
+    <SliderInt_Tope_de_entrada>
+        <name>Tope de entrada</name>
+        <value>425</value>
+    </SliderInt_Tope_de_entrada>
+    <SliderInt_Tiempo_de_espera>
+        <name>Tiempo de espera</name>
+        <value>825</value>
+    </SliderInt_Tiempo_de_espera>
+    <SliderFloat_Escala></SliderFloat_Escala>
+    <ColorPicker_Uno>
+        <name>Uno</name>
+        <values_0>1.000000000</values_0>
+        <values_1>0.215000004</values_1>
+        <values_2>0.949999988</values_2>
+        <values_3>1.000000000</values_3>
+        <name>Uno</name>
+        <values_0>0.000000000</values_0>
+        <values_1>1.000000000</values_1>
+        <values_2>1.000000000</values_2>
+        <values_3>1.000000000</values_3>
+        <name>Uno</name>
+        <values_0>0.000000000</values_0>
+        <values_1>0.990000010</values_1>
+        <values_2>0.000000000</values_2>
+        <values_3>1.000000000</values_3>
+        <name>Uno</name>
+        <values_0>0.000000000</values_0>
+        <values_1>0.000000000</values_1>
+        <values_2>1.000000000</values_2>
+        <values_3>1.000000000</values_3>
+        <name>Uno</name>
+        <values_0>1.000000000</values_0>
+        <values_1>1.000000000</values_1>
+        <values_2>0.000000000</values_2>
+        <values_3>1.000000000</values_3>
+        <name>Uno</name>
+        <values_0>1.000000000</values_0>
+        <values_1>0.000000000</values_1>
+        <values_2>0.000000000</values_2>
+        <values_3>1.000000000</values_3>
+    </ColorPicker_Uno>
+    <ColorPicker_Uno></ColorPicker_Uno>
+    <ColorPicker_Uno></ColorPicker_Uno>
+    <ColorPicker_Uno></ColorPicker_Uno>
+    <ColorPicker_Uno></ColorPicker_Uno>
+    <ColorPicker_Uno></ColorPicker_Uno>
+</controls>
